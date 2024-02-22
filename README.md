@@ -11,7 +11,7 @@
 curl -x socks5://{Your ProxyServer}:{Port} https://hxhgts.github.io/Nexttrace-Install/install-AdminRequired.bat > install-AdminRequired.bat
 ```
 
-2.右击install-AdminRequired.bat,选择"以管理员身份运行"
+2.右击`install-AdminRequired.bat`,选择"以管理员身份运行"
 
 ### 2.卸载
 
@@ -21,7 +21,7 @@ curl -x socks5://{Your ProxyServer}:{Port} https://hxhgts.github.io/Nexttrace-In
 curl -x socks5://{Your ProxyServer}:{Port} https://hxhgts.github.io/Nexttrace-Install/Uninstall-AdminRequired.bat > Uninstall-AdminRequired.bat
 ```
 
-2.右击Uninstall-AdminRequired.bat,选择"以管理员身份运行"
+2.右击`Uninstall-AdminRequired.bat`,选择"以管理员身份运行"
 
 ### 3.使用
 
@@ -31,7 +31,7 @@ curl -x socks5://{Your ProxyServer}:{Port} https://hxhgts.github.io/Nexttrace-In
 ```
 nexttrace {DomainName/IP Address}
 ```
-2.代理(nexttracex.bat内容可能需要修改,默认代理服务器socks5://127.0.0.1:10808):
+2.代理(nexttracex.bat内容可能需要修改,默认代理服务器`socks5://127.0.0.1:10808`):
 ```
 nexttracex {DomainName/IP Address}
 ```
