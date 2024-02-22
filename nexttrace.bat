@@ -2,8 +2,6 @@
 
 setlocal
 
-rem set proxy=127.0.0.1:1080
-
 set EXEC_NAME=nexttrace_windows_amd64.exe
 
 set pow_provider=sakura
@@ -20,9 +18,7 @@ if "%target%"=="" (
 
 rem echo Adding proxy server %proxy%...
 
-rem set http_proxy=%proxy%
-
-rem set https_proxy=%proxy%
+rem set NEXTTRACE_PROXY=socks5://127.0.0.1:10808
 
 echo Running %EXEC_NAME% with pow provider %pow_provider% and target %target%...
 
