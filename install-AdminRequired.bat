@@ -20,6 +20,10 @@ netsh advfirewall firewall add rule name="All ICMP v4 (Nexttrace)" dir=in action
 
 netsh advfirewall firewall add rule name="All ICMP v6 (Nexttrace)" dir=in action=allow protocol=icmpv6:any,any
 
+echo Writing the running script to the system directory . . .
+
+curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttrace.bat > %WINDIR%\nexttrace.bat
+
 echo Finished!
 
 pause > nul
