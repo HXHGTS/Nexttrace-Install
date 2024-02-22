@@ -26,6 +26,12 @@ curl -x socks5://{Your ProxyServer}:{Port} https://hxhgts.github.io/Nexttrace-In
 ### 3.使用
 
 安装后,默认放开Windows防火墙对Nexttrace ICMP协议的限制,且使用国内连接友好的数据库,命令:
+
+1.直连:
 ```
 nexttrace {DomainName/IP Address}
+```
+2.代理(nexttracex.bat内容可能需要修改):
+```
+nexttracex {DomainName/IP Address}
 ```
