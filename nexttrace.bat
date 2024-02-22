@@ -16,7 +16,7 @@ if "%target%"=="" (
 
 )
 
-rem echo Adding proxy server %proxy%...
+rem echo Adding proxy server %NEXTTRACE_PROXY%...
 
 rem set NEXTTRACE_PROXY=socks5://127.0.0.1:10808
 
