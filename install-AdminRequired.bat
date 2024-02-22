@@ -24,6 +24,8 @@ echo Writing the running script to the system directory . . .
 
 curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttrace.bat > %WINDIR%\nexttrace.bat
 
+curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttracex.bat > %WINDIR%\nexttracex.bat
+
 echo Finished!
 
 pause > nul
