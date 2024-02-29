@@ -2,13 +2,13 @@
 
 rem The executable file name can be modified according to the actual situation.
 
-set EXEC_NAME=nexttrace_windows_amd64.exe
+set EXEC_NAME=nexttrace.exe
 
 echo Delete file . . .
 
 del /f /s /q %WINDIR%\%EXEC_NAME%
 
-del /f /s /q %WINDIR%\nexttrace.bat
+del /f /s /q %WINDIR%\nexttraceo.bat
 
 del /f /s /q %WINDIR%\nexttracex.bat
 
