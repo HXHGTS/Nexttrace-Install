@@ -29,7 +29,7 @@ curl -x socks5://{Your ProxyServer}:{Port} https://hxhgts.github.io/Nexttrace-In
 
 1.直连:
 ```
-nexttrace {DomainName/IP Address}
+nexttraceo {DomainName/IP Address}
 ```
 2.代理(nexttracex.bat内容可能需要修改,默认代理服务器`socks5://127.0.0.1:10808`):
 ```
