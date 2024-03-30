@@ -5,8 +5,11 @@
 
 ### 1.安装
 
-1.下载nexttrace_windows_amd64.exe到任意目录,右键空白处选择"在终端中打开"，执行:
+1.打开任意目录,右键空白处选择"在终端中打开"，执行:
 
+```
+curl -sSL -x socks5://{Your ProxyServer}:{Port} https://github.com/nxtrace/NTrace-core/releases/latest/download/nexttrace_windows_amd64.exe > nexttrace_windows_amd64.exe
+```
 ```
 curl -x socks5://{Your ProxyServer}:{Port} https://hxhgts.github.io/Nexttrace-Install/install-AdminRequired.bat > install-AdminRequired.bat
 ```
