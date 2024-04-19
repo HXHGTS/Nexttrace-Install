@@ -1,5 +1,5 @@
 # Nexttrace-Install
-安装Nexttrace
+安装[Nexttrace](https://github.com/nxtrace/NTrace-core/releases)
 
 使用方法:
 
