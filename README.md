@@ -11,7 +11,7 @@
 curl -sSL -x socks5://{Your ProxyServer}:{Port} https://github.com/nxtrace/NTrace-core/releases/latest/download/nexttrace_windows_amd64.exe > nexttrace_windows_amd64.exe
 ```
 ```
-curl -x socks5://{Your ProxyServer}:{Port} https://hxhgts.github.io/Nexttrace-Install/install-AdminRequired.bat > install-AdminRequired.bat
+curl -sSL -x socks5://{Your ProxyServer}:{Port} https://hxhgts.github.io/Nexttrace-Install/install-AdminRequired.bat > install-AdminRequired.bat
 ```
 
 2.右击`install-AdminRequired.bat`,选择"以管理员身份运行"
