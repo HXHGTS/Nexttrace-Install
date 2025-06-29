@@ -26,7 +26,7 @@ curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttraceo.bat > %WINDIR%\n
 
 curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttracex.bat > %WINDIR%\nexttracex.bat
 
-curl -s https://github.com/HXHGTS/ipinfo-mmdb/releases/latest/download/ipinfoLocal.mmdb > %WINDIR%\ipinfoLocal.mmdb
+curl -sSL https://github.com/HXHGTS/ipinfo-mmdb/releases/latest/download/ipinfoLocal.mmdb > %WINDIR%\ipinfoLocal.mmdb
 
 echo Finished!
 
