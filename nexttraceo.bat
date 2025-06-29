@@ -2,11 +2,9 @@
 
 setlocal
 
-set EXEC_NAME=nexttrace.exe
+set EXEC_NAME=nexttrace
 
-set pow_provider=sakura
-
-set data-provider=ip.sb
+set data-provider=IPInfo
 
 set target=%1
 
@@ -18,8 +16,8 @@ if "%target%"=="" (
 
 )
 
-echo Running %EXEC_NAME% with pow provider %pow_provider% and target %target%...
+echo Running %EXEC_NAME% with target %target%...
 
-%EXEC_NAME% --pow-provider %pow_provider% --data-provider %data-provider% %target%
+%EXEC_NAME% --data-provider %data-provider% %target%
 
 endlocal
