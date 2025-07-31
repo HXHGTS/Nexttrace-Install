@@ -4,6 +4,8 @@ rem The executable file name can be modified according to the actual situation.
 
 set ALL_PROXY=socks5://127.0.0.1:10808
 
+#set ALL_PROXY=socks5://{Your ProxyServer}:{Port}
+
 set EXEC_NAME=nexttrace_windows_amd64.exe
 
 echo Copy file . . .
