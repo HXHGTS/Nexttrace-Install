@@ -2,15 +2,15 @@
 
 rem The executable file name can be modified according to the actual situation.
 
-set EXEC_NAME=nexttrace.exe
+set EXEC_NAME=nt.exe
 
 echo Delete file . . .
 
 del /f /s /q %WINDIR%\%EXEC_NAME%
 
-del /f /s /q %WINDIR%\nexttraceo.bat
+del /f /s /q %WINDIR%\nto.bat
 
-del /f /s /q %WINDIR%\nexttracex.bat
+del /f /s /q %WINDIR%\ntx.bat
 
 del /f /s /q %WINDIR%\ipinfoLocal.mmdb
 
