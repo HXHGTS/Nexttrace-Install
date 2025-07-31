@@ -8,7 +8,7 @@ set target=%1
 
 if "%target%"=="" (
 
-  echo Usage: nexttracex [target]
+  echo Usage: ntx [target]
 
   exit /b 1
 
