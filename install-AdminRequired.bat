@@ -12,7 +12,7 @@ echo Copy file . . .
 
 cd /d %~dp0
 
-copy /y .\%EXEC_NAME% %WINDIR%\nexttrace.exe
+copy /y .\%EXEC_NAME% %WINDIR%\nt.exe
 
 echo Add ICMP allow rule in ipv4 and ipv6 . . .
 
@@ -26,9 +26,9 @@ netsh advfirewall firewall add rule name="All ICMP v6 (Nexttrace)" dir=in action
 
 echo Writing the running script to the system directory . . .
 
-curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttraceo.bat > %WINDIR%\nexttraceo.bat
+curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttraceo.bat > %WINDIR%\nto.bat
 
-curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttracex.bat > %WINDIR%\nexttracex.bat
+curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttracex.bat > %WINDIR%\ntx.bat
 
 curl -fsSL "https://github.com/HXHGTS/ipinfo-mmdb/releases/download/20250629044127/ipinfoLocal.mmdb" -o d:\ipinfoLocal.mmdb
 
