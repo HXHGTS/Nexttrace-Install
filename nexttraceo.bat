@@ -10,7 +10,7 @@ set target=%1
 
 if "%target%"=="" (
 
-  echo Usage: nexttraceo [target]
+  echo Usage: nto [target]
 
   exit /b 1
 
