@@ -28,7 +28,7 @@ curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttraceo.bat > %WINDIR%\n
 
 curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttracex.bat > %WINDIR%\nexttracex.bat
 
-curl -# --doh-url https://brave.cloudflare-dns.com/dns-query -fsSL "https://github.abskoop.workers.dev/https://github.com/HXHGTS/ipinfo-mmdb/releases/download/20250629044127/ipinfoLocal.mmdb" -o d:\ipinfoLocal.mmdb
+curl -fsSL "https://github.com/HXHGTS/ipinfo-mmdb/releases/download/20250629044127/ipinfoLocal.mmdb" -o d:\ipinfoLocal.mmdb
 
 echo Finished!
 
