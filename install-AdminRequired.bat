@@ -32,4 +32,4 @@ curl -fsSL "https://github.com/HXHGTS/ipinfo-mmdb/releases/download/202506290441
 
 echo Finished!
 
-pause > nul
+pause
