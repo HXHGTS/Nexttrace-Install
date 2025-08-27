@@ -22,4 +22,4 @@ netsh advfirewall firewall delete rule name="All ICMP v6 (Nexttrace)"
 
 echo Finished!
 
-pause > nul
+pause
