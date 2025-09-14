@@ -12,6 +12,8 @@ echo Copy file . . .
 
 cd /d %~dp0
 
+curl -sSL https://github.com/nxtrace/NTrace-V1/releases/latest/download/nexttrace_windows_amd64.exe -o %EXEC_NAME%
+
 copy /y .\%EXEC_NAME% %WINDIR%\nt.exe
 
 echo Add ICMP allow rule in ipv4 and ipv6 . . .
