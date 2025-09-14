@@ -30,7 +30,11 @@ curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttraceo.bat > %WINDIR%\n
 
 curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttracex.bat > %WINDIR%\ntx.bat
 
-curl -fsSL "https://github.com/HXHGTS/ipinfo-mmdb/releases/download/20250629044127/ipinfoLocal.mmdb" -o d:\ipinfoLocal.mmdb
+curl -sSL "https://github.com/HXHGTS/ipinfo-mmdb/releases/download/20250629044127/ipinfoLocal.mmdb" -o %WINDIR%\ipinfoLocal.mmdb
+
+curl -sSL https://npcap.com/dist/npcap-1.83.exe -o d:\npcap-1.83.exe
+
+curl -sSL https://github.com/basil00/WinDivert/releases/download/v2.2.2/WinDivert-2.2.2-A.zip -o d:\WinDivert-2.2.2-A.zip
 
 echo Finished!
 
