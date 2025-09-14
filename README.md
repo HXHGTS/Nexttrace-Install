@@ -18,7 +18,7 @@ curl -sSL --doh-url https://223.5.5.5/dns-query https://hxhgts.github.io/Nexttra
 1.文件管理器进入任意目录下,执行:
 
 ```
-curl -sSL -x socks5://{Your ProxyServer}:{Port} https://hxhgts.github.io/Nexttrace-Install/Uninstall-AdminRequired.bat > Uninstall-AdminRequired.bat
+curl -sSL --doh-url https://223.5.5.5/dns-query https://hxhgts.github.io/Nexttrace-Install/Uninstall-AdminRequired.bat > Uninstall-AdminRequired.bat
 ```
 
 2.右击`Uninstall-AdminRequired.bat`,选择"以管理员身份运行"
