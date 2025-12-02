@@ -2,17 +2,19 @@
 
 rem The executable file name can be modified according to the actual situation.
 
-set ALL_PROXY=socks5://127.0.0.1:10808
+# set ALL_PROXY=socks5://127.0.0.1:10808
 
 rem set ALL_PROXY=socks5://{Your ProxyServer}:{Port}
 
 set EXEC_NAME=nexttrace_windows_amd64.exe
 
+set NT_VERSION=v1.5.0
+
 echo Copy file . . .
 
 cd /d %~dp0
 
-curl -sSL https://github.com/nxtrace/NTrace-V1/releases/latest/download/nexttrace_windows_amd64.exe -o %EXEC_NAME%
+curl -sSL https://dl-r2.nxtrace.org/dist/core/%NT_VERSION%/nexttrace_windows_amd64.exe -o %EXEC_NAME%
 
 copy /y .\%EXEC_NAME% %WINDIR%\nt.exe
 
@@ -36,7 +38,7 @@ curl -sSL "https://github.com/HXHGTS/ipinfo-mmdb/releases/download/2025062904412
 
 curl -sSL https://npcap.com/dist/npcap-1.83.exe -o d:\npcap-1.83.exe
 
-curl -sSL https://github.com/basil00/WinDivert/releases/download/v2.2.2/WinDivert-2.2.2-A.zip -o d:\WinDivert-2.2.2-A.zip
+nt --init
 
 echo Finished!
 
