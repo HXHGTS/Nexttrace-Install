@@ -16,7 +16,11 @@ cd /d %~dp0
 
 curl -sSL https://dl-r2.nxtrace.org/dist/core/%NT_VERSION%/nexttrace_windows_amd64.exe -o %EXEC_NAME%
 
+curl -sSL https://github.com/HXHGTS/Nexttrace-Install/releases/download/0.0.1/gsudo.exe -o gsudo.exe
+
 copy /y .\%EXEC_NAME% %WINDIR%\nt.exe
+
+copy /y .\gsudo.exe %WINDIR%\gsudo.exe
 
 echo Add ICMP allow rule in ipv4 and ipv6 . . .
 
