@@ -1,10 +1,10 @@
 @echo off
 
-rem The executable file name can be modified according to the actual situation.
+@REM The executable file name can be modified according to the actual situation.
 
-# set ALL_PROXY=socks5://127.0.0.1:10808
+set ALL_PROXY=socks5://127.0.0.1:10808
 
-rem set ALL_PROXY=socks5://{Your ProxyServer}:{Port}
+@REM set ALL_PROXY=socks5://{Your ProxyServer}:{Port}
 
 set EXEC_NAME=nexttrace_windows_amd64.exe
 
@@ -34,9 +34,9 @@ curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttraceo.bat > %WINDIR%\n
 
 curl -sSL https://hxhgts.github.io/Nexttrace-Install/nexttracex.bat > %WINDIR%\ntx.bat
 
-curl -sSL "https://github.com/HXHGTS/ipinfo-mmdb/releases/download/20250629044127/ipinfoLocal.mmdb" -o %WINDIR%\ipinfoLocal.mmdb
+@REM curl -sSL "https://github.com/HXHGTS/ipinfo-mmdb/releases/download/20250629044127/ipinfoLocal.mmdb" -o %WINDIR%\ipinfoLocal.mmdb
 
-curl -sSL https://npcap.com/dist/npcap-1.83.exe -o d:\npcap-1.83.exe
+@REM curl -sSL https://npcap.com/dist/npcap-1.83.exe -o d:\npcap-1.83.exe
 
 nt --init
 
