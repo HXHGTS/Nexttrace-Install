@@ -8,7 +8,7 @@ set ALL_PROXY=socks5://127.0.0.1:10808
 
 set EXEC_NAME=nexttrace_windows_amd64.exe
 
-set NT_VERSION=v1.5.0
+set NT_VERSION=v1.6.4
 
 echo Copy file . . .
 
